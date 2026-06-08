@@ -141,3 +141,30 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# --- FIVE M & SERVER SECRETS ---
+server.cfg
+common/data/secrets.lua
+credentials.json
+*.pem
+*.key
+.env
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# --- JAVA ---
+*.class
+*.jar
+*.war
+build/
+target/
+
+# --- GENERAL GAME SERVER JUNK ---
+*.luac
+logs/
+cache/
